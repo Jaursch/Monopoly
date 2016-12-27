@@ -16,7 +16,7 @@ property:: int get_houses(){
 	return houses;
 }
 
-property:: struct get_player(){
+property:: class get_player(){
 }
 
 property:: bool get_is_mortgage(){
