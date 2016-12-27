@@ -1,3 +1,5 @@
+#include "player.h"
+
 class square{
 	private:
 		string name;

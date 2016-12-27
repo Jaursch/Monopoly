@@ -1,3 +1,5 @@
+#include "square.h"
+
 class property : public square{
 	public:
 		int price;
