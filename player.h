@@ -27,6 +27,7 @@ class player {
 		void set_jail_card(bool);
 		bool is_in_jail();
 		void set_in_jail(bool);
+		int roll_dice(); //rand num 2-12
 };
 
 #endif
