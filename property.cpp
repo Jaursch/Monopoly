@@ -1,24 +1,28 @@
-#include "property.h"
+#include "./property.h"
 
-property:: int get_price(){
+int property:: get_price(){
 	return price;
 }
 
-property:: int get_house_price(){
-	return house_price;
+int property:: get_house_cost(){
+	return house_cost;  
 }
 
-property:: int get_mortgage_cost(){
+int property:: get_mortgage_cost(){
 	return mortgage_cost;
 }
 
-property:: int get_houses(){
+int property:: get_houses(){
 	return houses;
 }
 
-property:: class get_player(){
+player property:: get_player(){
 }
 
-property:: bool get_is_mortgage(){
+bool property:: get_is_mortgage(){
 	return is_mortgage;	
+}
+
+void property:: action(class player * curr_player){
+	cout<< "action"<<endl;
 }

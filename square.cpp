@@ -1,5 +1,5 @@
-#include "square.h"
+#include "./square.h"
 
-square:: string get_name(){
+string square:: get_name(){
 	return name;
-}
+};

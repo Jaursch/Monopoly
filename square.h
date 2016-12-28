@@ -1,4 +1,8 @@
+#ifndef SQUARE_H
+#define SQUARE_H
+
 #include "player.h"
+#include "./header.h"
 
 class square{
 	private:
@@ -9,4 +13,6 @@ class square{
 		virtual void action(class player * player_) = 0; //going to change
 		string get_name();
 		
-}
+};
+
+#endif

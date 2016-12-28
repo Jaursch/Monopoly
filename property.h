@@ -6,16 +6,15 @@ class property : public square{
 		int house_cost;
 		int mortgage_cost;
 		int houses;
-		class player; //should make a pointer?
+		player owner; //should make a pointer?
 		bool is_mortgage;
 
 	private:
-		void action(struct class *player_);
+		void action(class player *);
 		int get_price();
 		int get_house_cost();
 		int get_mortgage_cost();
 		int get_houses();
-		class get_player();
+		player get_player();
 		bool get_is_mortgage();
-		
-}
+};
