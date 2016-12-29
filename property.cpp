@@ -1,5 +1,5 @@
 #include "./property.h"
-
+ 
 int property:: get_price(){
 	return price;
 }

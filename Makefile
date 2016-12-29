@@ -8,4 +8,4 @@ square.o: square.cpp square.h
 property.o: property.cpp property.h
 	g++ property.cpp property.h -c
 clean:
-	rm -f *.o #play
+	rm -f *.o *.h.gch #play
